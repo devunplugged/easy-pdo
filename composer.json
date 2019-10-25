@@ -1,4 +1,6 @@
 {
+    "name": "gtgboron/easy-pdo",
+    "description": "Pdo wrapper",
     "autoload": {
         "psr-4": {
             "Easypdo\\": "src"
