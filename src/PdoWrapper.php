@@ -12,9 +12,10 @@ class PdoWrapper{
 	private $charset;
 	private $connection;
 	
-	function __construct($host,$database,$charset,$user,$password) {
+	function __construct($charset='utf8') {
+		require_once __DIR__ .'/../config.php';
 		$this->host 		= $host;
-		$this->database 	= $database;
+		$this->database 	= $db;
 		$this->user 		= $user;
 		$this->password 	= $password;
 		$this->charset 		= $charset;
