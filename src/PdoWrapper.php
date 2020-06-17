@@ -1,6 +1,8 @@
 <?php
 namespace Easypdo;
- 
+ /**
+  * Pdo wrapper
+  */
 class PdoWrapper{
     private $host;
 	private $database;
