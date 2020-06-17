@@ -2,6 +2,7 @@
 namespace Easypdo;
  /**
   * Pdo wrapper
+  * for simple db interaction
   */
 class PdoWrapper{
     private $host;
